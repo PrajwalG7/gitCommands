@@ -62,7 +62,7 @@ git branch <branch name>
 git checkout -b <branch name>
 
 #6 git merge 
-Lets say we have created a new branch named "dev" and again we have created a lets say a subbranch name "Newfeature" so now we have to merge that NewFeature branch to the dev branch so we use:
+Lets say we have created a new branch named "dev" and again we have created an another branch name "Newfeature" so now we have to merge that NewFeature branch to the dev branch so we use:
 git merge <branch name>
 
 Now lets say we have merged NewFeature with dev now we have to merger the dev branch to the master branch so we again use:
@@ -82,3 +82,14 @@ The steps are:
 git remote add origin <repoLink>
 git branch -M master
 git push -u origin master
+
+
+Explanation:
+Here git remote add origin <repoLink> means to a add a new remote,
+git branch -M master means move master branch to remote,
+git push -u origin master this will push your code to the master branch of the remote repository defined with origin and -u let you point your current local branch to the remote master branch
+
+#9 To clone a repo
+Go to the repo and clone the url
+(Clone in another folder)
+git clone <repo url>
