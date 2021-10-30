@@ -93,3 +93,8 @@ git push -u origin master this will push your code to the master branch of the r
 Go to the repo and clone the url
 (Clone in another folder)
 git clone <repo url>
+
+To see the changes made in specific file:
+cat <file name>
+
+Now as you have made changes and if you want to update your codebase first you need to add files in staging area then commit it with a message and push to the origin
