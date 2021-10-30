@@ -97,4 +97,21 @@ git clone <repo url>
 To see the changes made in specific file:
 cat <file name>
 
-Now as you have made changes and if you want to update your codebase first you need to add files in staging area then commit it with a message and push to the origin
+Now as you have made changes and if you want to update your codebase first you need to add files in staging area then commit it with a message and push to the origin.
+
+------------------------------------------------------------------------------------------------------
+*Open source Contribution basics:
+
+Step 1: fork a repo to which you want to contribute to.
+Step 2: Clone the repo
+Step 3: make changes into files
+Step 4: to update the codebase add the files in staging area, commit the files with short desc of changes, push the file to your remote
+Step 5: Go to contribute in your remote repo and click open pull request
+Step 6: Review your changes 
+Step 7: Click create pull request and write what changes you have made in messagebox and again click create pull request.
+Now you have successfully created your first PR (pull request)
+
+Now the owner of the original repo will receive that pull request and in under Pull request section he/she/team will check the changes made by your side under file section, they will review your changes by "Review changes" option which has 3 SubOptions 1. Comment 2. Approve 3. Request changes, and if they found the changes are valid then they'll approve and merge your PR.
+
+
+
